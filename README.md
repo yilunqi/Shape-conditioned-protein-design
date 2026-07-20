@@ -1,4 +1,4 @@
-# RFdiffusion `shape_ctrl` Potential
+# `shape_ctrl` Potential implemented in RFdiffusion 
 
 This folder provides a `shape_ctrl` guiding potential for RFdiffusion. It uses an OBJ mesh as the target shape and guides CA atoms with a combination of SDF outside loss and Chamfer distance.
 
