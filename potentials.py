@@ -176,7 +176,7 @@ class shape_ctrl(Potential):
             + self.moment_weight * moment_loss
         )
         potential = -1 * self.weight * total_loss
-
+        '''
         print(
             "[shape_ctrl_wynton] "
             f"sdf_inside={sdf_inside.item():.6f}, "
@@ -192,7 +192,7 @@ class shape_ctrl(Potential):
             f"weight={self.weight:.6f}, "
             f"returned_potential={potential.item():.6f}"
         )
-
+        '''
         return potential
 
 
