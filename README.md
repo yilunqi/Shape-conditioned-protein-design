@@ -2,6 +2,8 @@
 
 This folder provides a `shape_ctrl` guiding potential for RFdiffusion. It uses an OBJ mesh as the target shape and guides CA atoms with a combination of SDF outside loss and Chamfer distance.
 
+**Preprint:** [Programming protein shape as an explicit design layer via CAD blueprint-guided diffusion](https://doi.org/10.64898/2026.07.22.740177)
+
 ## What It Does
 
 `shape_ctrl` optimizes two main terms:
